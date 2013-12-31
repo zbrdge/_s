@@ -2,7 +2,7 @@
 /**
  * The Template for displaying all single posts.
  *
- * @package _s
+ * @package P-Not-Comics Custom Theme
  */
 
 get_header(); ?>
@@ -14,7 +14,7 @@ get_header(); ?>
 
 			<?php get_template_part( 'content', 'single' ); ?>
 
-			<?php _s_post_nav(); ?>
+			<?php pnc_post_nav(); ?>
 
 			<?php
 				// If comments are open or we have at least one comment, load up the comment template
